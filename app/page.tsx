@@ -1,16 +1,15 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
 
       <div>
+        
         <h4 className="font-bold">1. From this list, rank your 5 most favourite and 5 least favourite support tasks. Provide a brief explanation for each.</h4>
         <h6 className="mt-3">Most Favourite</h6>
         <div className="ml-5">
 
-          <li  className="mt-3">Dig through logs to troubleshoot a customer's broken project</li>
-          <p className="text-gray-400">I love digging through logs to troubleshoot a customer's broken project. It gives me a sense of satisfaction when we solve the queries and help resolve the issues they're facing</p>
+          <li  className="mt-3">Dig through logs to troubleshoot a customer&apos;s broken project</li>
+          <p className="text-gray-400">I love digging through logs to troubleshoot a customer&apos; broken project. It gives me a sense of satisfaction when we solve the queries and help resolve the issues they&apos;re facing</p>
           <br/>
 
           <li>Write and maintain support articles and docs pages</li>
@@ -23,7 +22,7 @@ export default function Home() {
           <p className="text-gray-400">
 
           The support team will have greater visibility into customer pain points and the features they are seeking. Collaborating with the product team to enhance the product based on customer feedback enables us to directly impact user satisfaction and product quality. It also aids in understanding the feasibility of the request and informing the customer whether it is possible to implement or not.        
-          In Twilio I have seen customers requesting a Group Whatsapp messaging feature and due to meta limitations, we could't implement this. So, we have provided the workaround for the feature and I had the opportunity to contribute to this - <a className="text-green-500" href="https://github.com/TwilioDevEd/whatsapp-group-messaging/pull/5">https://github.com/TwilioDevEd/whatsapp-group-messaging/pull/5</a>
+          In Twilio I have seen customers requesting a Group Whatsapp messaging feature and due to meta limitations, we could&apos; implement this. So, we have provided the workaround for the feature and I had the opportunity to contribute to this - <a className="text-green-500" href="https://github.com/TwilioDevEd/whatsapp-group-messaging/pull/5">https://github.com/TwilioDevEd/whatsapp-group-messaging/pull/5</a>
 
             </p>
 
@@ -42,7 +41,7 @@ export default function Home() {
         <div className="ml-5">
 
         <li className="mt-3">Create video tutorials to help teach users a specific feature or use case</li>
-        <p className="text-gray-400">While this may not be the thing I don't want to do, but I prefer to do less of these things. This is mainly due to the experience in this particular aspect. In my role at Twilio, I have supported multiple customers through zoom sessions, but creating a video tutorial will be a new thing for me. I am willing to learn the art of making video tutorial for a specific concept or troubleshooting issue and willing to do this.</p>
+        <p className="text-gray-400">While this may not be the thing I don&apos; want to do, but I prefer to do less of these things. This is mainly due to the experience in this particular aspect. In my role at Twilio, I have supported multiple customers through zoom sessions, but creating a video tutorial will be a new thing for me. I am willing to learn the art of making video tutorial for a specific concept or troubleshooting issue and willing to do this.</p>
 
 
 
@@ -62,7 +61,7 @@ export default function Home() {
           
           
           
-        I haven't had the opportunity to engage multiple users at once in a public discussion before, but I would love to do this if given the chance. It's an exciting prospect to answer their questions and troubleshoot problems in a public forum</p>
+        I haven&apos; had the opportunity to engage multiple users at once in a public discussion before, but I would love to do this if given the chance. It&apos; an exciting prospect to answer their questions and troubleshoot problems in a public forum</p>
         
         </div>
         <hr className="my-4 border-t border-gray-300" />
@@ -71,7 +70,7 @@ export default function Home() {
         <h4 className="font-bold mt-3">2. What do you want to learn or do more of at work?</h4>
         <p className="text-gray-400">
           
-        My primary motivation for applying to this role lies in my interest with startup environment. I am eager to immerse myself in startup culture, understand customer pain points, and offer effective assistance. Additionally, I am interested in advancing my skills in Next.js development, and I see this position as a valuable opportunity for growth in that area also. Given the role's developer focus, I am confident it will facilitate my personal development by exposing me to a diverse range of technologies.
+        My primary motivation for applying to this role lies in my interest with startup environment. I am eager to immerse myself in startup culture, understand customer pain points, and offer effective assistance. Additionally, I am interested in advancing my skills in Next.js development, and I see this position as a valuable opportunity for growth in that area also. Given the role&apos; developer focus, I am confident it will facilitate my personal development by exposing me to a diverse range of technologies.
        
        <br/>
        
@@ -90,14 +89,14 @@ successful?</h4>
           This is same for all customers(free/paid/enterprise). But, the customers who are part of Twilio Enterprise Edition or Twilio Security Edition plans will have access to an additonal level of security called Public Key Client Validation, where you can use private key and public key to pass an additonal JWT Token in the Twilio-Client-Validation header. 
 
           <br/><br/>
-          The customer recently purchased the enterprise plan and was trying to setup this functionality. The customer was using PHP to implement this, but Twilio's public documentation has an example only in <a className="text-red-800" href="https://www.twilio.com/docs/iam/pkcv/quickstart#client-validation-java-example">Java</a>. The official documentation suggest to use Java and we do not suggest the customer to create the token manually as it involves multiple steps and if the customer make any mistakes, it will not return a valid JWT.
-          So, since there was no PHP example, customer was creating the token manually and facing an error <b>[HTTP 401] Unable to create record: Inclusion of PKCV header is not permitted with current authentication flow</b>. Since I haven't seen this error before, I quickly searched this error in Zendesk and Slack, and I found that few other customer also faced this issue earlier. The issue here was that, when the customer authentciate using PKCV header, they should pass API Key and API secret as basic authentication instead of Account SID and Auth Token. 
+          The customer recently purchased the enterprise plan and was trying to setup this functionality. The customer was using PHP to implement this, but Twilio&apos; public documentation has an example only in <a className="text-red-800" href="https://www.twilio.com/docs/iam/pkcv/quickstart#client-validation-java-example">Java</a>. The official documentation suggest to use Java and we do not suggest the customer to create the token manually as it involves multiple steps and if the customer make any mistakes, it will not return a valid JWT.
+          So, since there was no PHP example, customer was creating the token manually and facing an error <b>[HTTP 401] Unable to create record: Inclusion of PKCV header is not permitted with current authentication flow</b>. Since I haven&apos; seen this error before, I quickly searched this error in Zendesk and Slack, and I found that few other customer also faced this issue earlier. The issue here was that, when the customer authentciate using PKCV header, they should pass API Key and API secret as basic authentication instead of Account SID and Auth Token. 
           I suggested the same to the customer and this issue is resolved, but they were getting another error <b>[HTTP 401] Unable to create record: The request signature in JWT is invalid or missing</b>
 
           <br/><br/>
 
-          Since the error message was related to invalid token, I asked the customer to share the token and decoded it using jwt.io and the payload was lookig fine. Since we suggested the customer's to use the officlal Java helper library method, I told the customer to try with Java method. But the issue with the Java example is that it performs all the steps from the beginning, i.e creating new private and public keys, creating a credential SID etc. But the customer already had all these created. So, I looked into the Java example and modified as per customer requirement and shared it with the customer. Fortunately the issue was resolved. The PKCV was working fine in Java, but failing in PHP. So, to troubleshoot the issue further, I has aksed the customer to share the PHP code and started debugging it. 
-          The manual implementaiton was looking good and I couldn't identify the iussue and as mentioned bhy the customer, it was throwing the error. I tried using both GET and POST requests, but GET request was working fine and only the POST requests was failing. So, I though there maybe some issue with the request parameters and I thought the issue maybe with encoding. So, I made a POST request using the POST body params without having any special characters(like spaces) and the request was successful. Then I found that the logic the customer was using to encode the request body was wrong. So, I suggested the customer to verify this and the issue was resolved.
+          Since the error message was related to invalid token, I asked the customer to share the token and decoded it using jwt.io and the payload was lookig fine. Since we suggested the customer&apos; to use the officlal Java helper library method, I told the customer to try with Java method. But the issue with the Java example is that it performs all the steps from the beginning, i.e creating new private and public keys, creating a credential SID etc. But the customer already had all these created. So, I looked into the Java example and modified as per customer requirement and shared it with the customer. Fortunately the issue was resolved. The PKCV was working fine in Java, but failing in PHP. So, to troubleshoot the issue further, I has aksed the customer to share the PHP code and started debugging it. 
+          The manual implementaiton was looking good and I couldn&apos; identify the iussue and as mentioned bhy the customer, it was throwing the error. I tried using both GET and POST requests, but GET request was working fine and only the POST requests was failing. So, I though there maybe some issue with the request parameters and I thought the issue maybe with encoding. So, I made a POST request using the POST body params without having any special characters(like spaces) and the request was successful. Then I found that the logic the customer was using to encode the request body was wrong. So, I suggested the customer to verify this and the issue was resolved.
 
           <br/><br/>
           To determine my solution was successful, I verified this with the customer and once I have received an acknowledgement from the customer, I have set the ticket to Solved!
@@ -138,11 +137,11 @@ Using Edge Middleware, depending on the incoming request, you can execute custom
 
 <h4 className="font-bold my-3">
 5. Imagine a customer writes in requesting help with a build issue on a framework or
-technology that you've not seen before. How would you begin troubleshooting this and
+technology that you&apos;ve not seen before. How would you begin troubleshooting this and
 what questions would you ask the customer to understand the situation better?
   </h4>
 
-  Troubleshooting an issue with a framework or technology that I have never seen before may feel difficult, but with the huge amount of resources available online, it shouldn't be challenging. 
+  Troubleshooting an issue with a framework or technology that I have never seen before may feel difficult, but with the huge amount of resources available online, it shouldn&apos; be challenging. 
   To begin with, first I would ask the customer to provide a detailed description of the problem they are facing during the build process. This could include any error messages, screenshot of the issue etc. Then, I would refer to the official documentation of the framework the customer is using. 
   
   I will specifically look into the build process and check if the customer is doing anything wrong. 
@@ -172,7 +171,7 @@ Could you please share the details of your build configuration or scripts?
 
   6. The customer from question 5 replies to your response with the below:
 
-“I'm so frustrated. I've been trying to make this work for hours and I just can't figure it
+“I&apos;m so frustrated. I&apos;ve been trying to make this work for hours and I just can&apos; figure it
 out. It must be a platform issue so just fix it for me instead of asking me questions.”
 Please write a follow-up reply to the customer.  
 </h4>
@@ -281,7 +280,7 @@ Hi there,<br/><br/>
 
   I understand that you want to prevent your sites from being indexed by the search engines. I am happy to help you!
 
-  To impelement this, you can use a "x-robots-tag: noindex" header. That's what Vercel already does automatically for Preview deployments to prevent negative SEO impact from duplicate content. If you are using Next.js, you can impelement this in your next.config.js file and if you are using any other frameworks, you can simply add the headers in vercel.json file. Pleasen refer to this comprehensive guide on this topic - <a className="text-blue-500" href="https://vercel.com/guides/are-vercel-preview-deployment-indexed-by-search-engines">https://vercel.com/guides/are-vercel-preview-deployment-indexed-by-search-engines</a>
+  To impelement this, you can use a &quot;x-robots-tag: noindex&quot; header. That&apos; what Vercel already does automatically for Preview deployments to prevent negative SEO impact from duplicate content. If you are using Next.js, you can impelement this in your next.config.js file and if you are using any other frameworks, you can simply add the headers in vercel.json file. Pleasen refer to this comprehensive guide on this topic - <a className="text-blue-500" href="https://vercel.com/guides/are-vercel-preview-deployment-indexed-by-search-engines">https://vercel.com/guides/are-vercel-preview-deployment-indexed-by-search-engines</a>
       
       <br/><br/>You can also refer to this github discussion for more details - <a className="text-blue-500" href="https://github.com/orgs/vercel/discussions/1060">https://github.com/orgs/vercel/discussions/1060</a>
    
