@@ -61,6 +61,7 @@ export default function Home() {
         <p className="text-gray-400">
           
           
+          
         I haven't had the opportunity to engage multiple users at once in a public discussion before, but I would love to do this if given the chance. It's an exciting prospect to answer their questions and troubleshoot problems in a public forum</p>
         
         </div>
