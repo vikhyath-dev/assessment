@@ -22,7 +22,7 @@ export default function Home() {
           <p className="text-gray-400">
 
           The support team will have greater visibility into customer pain points and the features they are seeking. Collaborating with the product team to enhance the product based on customer feedback enables us to directly impact user satisfaction and product quality. It also aids in understanding the feasibility of the request and informing the customer whether it is possible to implement or not.        
-          In Twilio I have seen customers requesting a Group Whatsapp messaging feature and due to meta limitations, we could&apos; implement this. So, we have provided the workaround for the feature and I had the opportunity to contribute to this - <a className="text-green-500" href="https://github.com/TwilioDevEd/whatsapp-group-messaging/pull/5">https://github.com/TwilioDevEd/whatsapp-group-messaging/pull/5</a>
+          In Twilio I have seen customers requesting a Group Whatsapp messaging feature and due to meta limitations, we couldn&apos;t implement this. So, we have provided the workaround for the feature and I had the opportunity to contribute to this - <a className="text-green-500" href="https://github.com/TwilioDevEd/whatsapp-group-messaging/pull/5">https://github.com/TwilioDevEd/whatsapp-group-messaging/pull/5</a>
 
             </p>
 
@@ -41,7 +41,7 @@ export default function Home() {
         <div className="ml-5">
 
         <li className="mt-3">Create video tutorials to help teach users a specific feature or use case</li>
-        <p className="text-gray-400">While this may not be the thing I don&apos; want to do, but I prefer to do less of these things. This is mainly due to the experience in this particular aspect. In my role at Twilio, I have supported multiple customers through zoom sessions, but creating a video tutorial will be a new thing for me. I am willing to learn the art of making video tutorial for a specific concept or troubleshooting issue and willing to do this.</p>
+        <p className="text-gray-400">While this may not be the thing I don&apos; want to do, but I prefer to do less of these things. This is mainly due to lack experience in this particular aspect. In my role at Twilio, I have supported multiple customers through zoom sessions, but creating a video tutorial will be a new thing for me. However, I am willing to learn the art of making video tutorial for a specific concept or troubleshooting issue.</p>
 
 
 
